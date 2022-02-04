@@ -3,6 +3,14 @@ This thesis aims to propose fingerprint PAD methods based on deep learning techn
 
 This project was submitted in fulfilment of the requirements for the degree of master of science in the department of computer engineering at the college of computer and information sciences - King Saud University.
 
+## Publications: 
+[1] S. B. Sandouka, Y. Bazi, and N. Alajlan, “Transformers and Generative Adversarial Networks for Liveness Detection in Multitarget Fingerprint Sensors,” Sensors, vol. 21, no. 3, Art. no. 3, Jan. 2021, doi: 10.3390/s21030699.
+
+[2] S. B. Sandouka, Y. Bazi, H. Alhichri, and N. Alajlan, “Unified Generative Adversarial Networks for Multidomain Fingerprint Presentation Attack Detection,” Entropy, vol. 23, no. 8, Art. no. 8, Aug. 2021, doi: 10.3390/e23081089. 
+
+
+
+
 ## Contributions: 
 -	We have proposed two deep learning approaches for tackling the poor generalization ability of fingerprint PAD over multiple sensors and materials.
 -	In the first approach we proposed a PAD method based on EfficientNet coupled with transformers and generative adversarial networks (GANs). More specifically, we used CycleGAN to reduce the distribution shift between fingerprint representations coming from multiple target sensors. Then, we trained a hybrid network composed of EfficientNets coupled with a transformer on the original training samples of the source sensor in addition to their augmented version obtained from CycleGAN. 
